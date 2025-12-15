@@ -85,16 +85,9 @@ const generatePassword = () => {
 const linkedinBtn = document.getElementById("linkedin-btn");
 if (linkedinBtn) {
   linkedinBtn.addEventListener("click", function(e) {
-    e.stopPropagation(); // Keep popup open
-    e.preventDefault(); // Prevent default
-    
+    e.preventDefault();
     const linkedinUrl = "https://www.linkedin.com/in/yasir-akbar-2b534513b/";
-    
-    // Open LinkedIn in new tab
-    chrome.tabs.create({ 
-      url: linkedinUrl,
-      active: true 
-    });
+    window.open(linkedinUrl, '_blank');
   });
 }
 
