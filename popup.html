@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Password Generator</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <div class="card">
+    <header>
+      <div class="logo">🔐</div>
+      <h1>Password Generator</h1>
+      <button class="theme-toggle" title="Toggle theme">🌙</button>
+    </header>
+
+    <div class="password-wrapper">
+      <input class="password" type="text" readonly />
+      <button class="copy-btn" title="Copy">
+        <svg viewBox="0 0 24 24">
+          <path d="M16 1H4a2 2 0 0 0-2 2v14h2V3h12V1zm3 4H8a2 2 0 0 0-2 2v16h13a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2zm0 18H8V7h11v16z"/>
+        </svg>
+      </button>
+    </div>
+
+    <div class="strength">
+      <div class="strength-bar">
+        <div class="strength-fill"></div>
+      </div>
+      <span class="strength-text">Strength</span>
+    </div>
+
+    <div class="section">
+      <div class="length-row">
+        <span>Length</span>
+        <span class="length-value">12</span>
+      </div>
+      <input id="slider-length" type="range" min="6" max="32" value="12" />
+    </div>
+
+    <div class="section options">
+      <label><input type="checkbox" class="uppercase" checked /> Uppercase</label>
+      <label><input type="checkbox" class="lowercase" checked /> Lowercase</label>
+      <label><input type="checkbox" class="numbers" checked /> Numbers</label>
+      <label><input type="checkbox" class="symbols" /> Symbols</label>
+    </div>
+
+    <button class="generate-btn">
+      <svg viewBox="0 0 24 24">
+        <path d="M17.65 6.35A7.95 7.95 0 0 0 12 4V1L7 6l5 5V7a5 5 0 1 1-5 5H5a7 7 0 1 0 12.65-5.65z"/>
+      </svg>
+      Generate Password
+    </button>
+
+    <!-- SINGLE LINKEDIN LINK -->
+    <div class="developer-links">
+      <p class="note">Generated locally • Nothing stored</p>
+      <button class="linkedin-btn" id="linkedin-btn" title="Connect on LinkedIn">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+        </svg>
+        Developer LinkedIn
+      </button>
+    </div>
+  </div>
+
+  <div class="toast">Copied to clipboard</div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
