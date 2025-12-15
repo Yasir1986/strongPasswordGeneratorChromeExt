@@ -23,4 +23,4 @@ A secure, privacy-focused password generator that runs locally in your browser.
 
 #### Connect to Developer:
 Developer portfolio: https://jade-starlight-c1c7e6.netlify.app/
-Developer LinkedIn: https://www.linkedin.com/in/yasir-akbar-2b534513b/
+Developer LinkedIn: https://www.linkedin.com/in/yasir-akbar-2b534513b/# strongPasswordGeneratorChromeExt
