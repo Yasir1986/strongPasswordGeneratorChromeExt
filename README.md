@@ -13,7 +13,7 @@ A secure, privacy-focused password generator that runs locally in your browser.
 ## Installation
 
 ### From Chrome Web Store
-*(Coming soon)*
+https://shorturl.at/ej3e3
 
 ### Manual Installation (Developer)
 1. Clone this repository:
