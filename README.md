@@ -23,5 +23,7 @@ https://shorturl.at/ej3e3
 
 #### Connect to Developer:
 Developer portfolio: https://jade-starlight-c1c7e6.netlify.app/
-Developer LinkedIn: https://www.linkedin.com/in/yasir-akbar-2b534513b/# strongPasswordGeneratorChromeExt
+Developer LinkedIn: https://www.linkedin.com/in/yasir-akbar-2b534513b/
+
+#strongPasswordGeneratorChromeExt
 # strongPasswordGeneratorChromeExt
